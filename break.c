@@ -23,10 +23,11 @@ int main()
                  high=scores[i];
                   k++;
              }
-
+        break;
     }
     a[0]=j;
     a[1]=k;
     for(i=0;i<2;i++)
         printf("%d ",a[i]);
+    return 0;
 }
